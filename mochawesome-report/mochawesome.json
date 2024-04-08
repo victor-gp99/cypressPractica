@@ -1,0 +1,256 @@
+{
+  "stats": {
+    "suites": 5,
+    "tests": 5,
+    "passes": 5,
+    "pending": 0,
+    "failures": 0,
+    "start": "2024-01-05T20:04:47.193Z",
+    "end": "2024-01-05T20:05:16.275Z",
+    "duration": 29082,
+    "testsRegistered": 5,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "7fe8dd3a-1129-4b69-9889-c048f4457e47",
+      "title": "",
+      "fullFile": "cypress/e2e/3-freeRangeTest/Secciones.cy.js",
+      "file": "cypress/e2e/3-freeRangeTest/Secciones.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "882279e5-febc-4195-92be-818352cdcebe",
+          "title": "El titulo es el correcto para cada subpagina en Free Range Testers",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Valida queFree Range Testerssea el titulo dehttps://www.freerangetesters.com/",
+              "fullTitle": "El titulo es el correcto para cada subpagina en Free Range Testers Valida queFree Range Testerssea el titulo dehttps://www.freerangetesters.com/",
+              "timedOut": null,
+              "duration": 5776,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "/*cy.intercept('GET', {\n    statusCode:500,\n    body:{\n        nombre: 'Esto es stubbed'\n    }\n})*/\n/* cy.intercept('GET', (req)=>{\n    //hacemos algo con la response \n    req.headers['user-agent'] = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)'\n    return true\n})*/\ncy.visit(testData.Location);\ncy.title().should('include', testData.Title);",
+              "err": {},
+              "uuid": "56753b35-0ce7-4b95-babd-b94fd0d0f754",
+              "parentUUID": "882279e5-febc-4195-92be-818352cdcebe",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "56753b35-0ce7-4b95-babd-b94fd0d0f754"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 5776,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "3140fc25-9293-46ec-85a1-48d515ed33dd",
+          "title": "El titulo es el correcto para cada subpagina en Free Range Testers",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Valida queCursossea el titulo dehttps://www.freerangetesters.com/cursos",
+              "fullTitle": "El titulo es el correcto para cada subpagina en Free Range Testers Valida queCursossea el titulo dehttps://www.freerangetesters.com/cursos",
+              "timedOut": null,
+              "duration": 4523,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "/*cy.intercept('GET', {\n    statusCode:500,\n    body:{\n        nombre: 'Esto es stubbed'\n    }\n})*/\n/* cy.intercept('GET', (req)=>{\n    //hacemos algo con la response \n    req.headers['user-agent'] = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)'\n    return true\n})*/\ncy.visit(testData.Location);\ncy.title().should('include', testData.Title);",
+              "err": {},
+              "uuid": "2b84780c-4bc2-4178-aa4e-2a5aea25707f",
+              "parentUUID": "3140fc25-9293-46ec-85a1-48d515ed33dd",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "2b84780c-4bc2-4178-aa4e-2a5aea25707f"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 4523,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "63a76338-2347-47f6-ab69-e2e9f7806548",
+          "title": "El titulo es el correcto para cada subpagina en Free Range Testers",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Valida queRecursossea el titulo dehttps://www.freerangetesters.com/recursos",
+              "fullTitle": "El titulo es el correcto para cada subpagina en Free Range Testers Valida queRecursossea el titulo dehttps://www.freerangetesters.com/recursos",
+              "timedOut": null,
+              "duration": 3950,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "/*cy.intercept('GET', {\n    statusCode:500,\n    body:{\n        nombre: 'Esto es stubbed'\n    }\n})*/\n/* cy.intercept('GET', (req)=>{\n    //hacemos algo con la response \n    req.headers['user-agent'] = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)'\n    return true\n})*/\ncy.visit(testData.Location);\ncy.title().should('include', testData.Title);",
+              "err": {},
+              "uuid": "ce2a19da-6d38-4423-a277-05692a74290d",
+              "parentUUID": "63a76338-2347-47f6-ab69-e2e9f7806548",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "ce2a19da-6d38-4423-a277-05692a74290d"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 3950,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "8bbbcb13-7de0-48fc-854a-c02936561ca0",
+          "title": "El titulo es el correcto para cada subpagina en Free Range Testers",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Valida queAcceder a Free Range Testerssea el titulo dehttps://www.freerangetesters.com/login",
+              "fullTitle": "El titulo es el correcto para cada subpagina en Free Range Testers Valida queAcceder a Free Range Testerssea el titulo dehttps://www.freerangetesters.com/login",
+              "timedOut": null,
+              "duration": 4846,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "/*cy.intercept('GET', {\n    statusCode:500,\n    body:{\n        nombre: 'Esto es stubbed'\n    }\n})*/\n/* cy.intercept('GET', (req)=>{\n    //hacemos algo con la response \n    req.headers['user-agent'] = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)'\n    return true\n})*/\ncy.visit(testData.Location);\ncy.title().should('include', testData.Title);",
+              "err": {},
+              "uuid": "5d0edad6-411c-4b57-b36b-050ce6907640",
+              "parentUUID": "8bbbcb13-7de0-48fc-854a-c02936561ca0",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "5d0edad6-411c-4b57-b36b-050ce6907640"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 4846,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        },
+        {
+          "uuid": "6e1ccc4d-27aa-409f-9f58-ad19c8b35d78",
+          "title": "El titulo es el correcto para cada subpagina en Free Range Testers",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Valida queUdemysea el titulo dehttps://www.freerangetesters.com/udemy",
+              "fullTitle": "El titulo es el correcto para cada subpagina en Free Range Testers Valida queUdemysea el titulo dehttps://www.freerangetesters.com/udemy",
+              "timedOut": null,
+              "duration": 4540,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "/*cy.intercept('GET', {\n    statusCode:500,\n    body:{\n        nombre: 'Esto es stubbed'\n    }\n})*/\n/* cy.intercept('GET', (req)=>{\n    //hacemos algo con la response \n    req.headers['user-agent'] = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)'\n    return true\n})*/\ncy.visit(testData.Location);\ncy.title().should('include', testData.Title);",
+              "err": {},
+              "uuid": "e64cf551-c373-4eb8-85c6-f17819d2e3a0",
+              "parentUUID": "6e1ccc4d-27aa-409f-9f58-ad19c8b35d78",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "e64cf551-c373-4eb8-85c6-f17819d2e3a0"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 4540,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": null,
+      "version": "6.2.0"
+    }
+  }
+}
